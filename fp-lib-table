@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ELP-Boost_PFC")(type "KiCad")(uri "${KIPRJMOD}/ELP-Boost_PFC.pretty")(options "")(descr ""))
+)
