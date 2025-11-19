@@ -2270,13 +2270,23 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 115.57) (xy 180.34 115.57)
+			(xy 191.77 115.57) (xy 180.34 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "170a3989-89d4-4bd9-b590-60574690b2ad")
+	)
+	(wire
+		(pts
+			(xy 35.56 76.2) (xy 39.37 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19326c98-b1b1-4a7e-a814-8534f21e9c2a")
 	)
 	(wire
 		(pts
@@ -2400,16 +2410,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 71.12) (xy 39.37 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a795580-8e50-46ac-a7ec-79bc2971687b")
-	)
-	(wire
-		(pts
 			(xy 121.92 59.69) (xy 102.87 59.69)
 		)
 		(stroke
@@ -2510,6 +2510,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 71.12) (xy 39.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a66547-6156-4fcf-b7ba-63ded9602659")
+	)
+	(wire
+		(pts
 			(xy 91.44 86.36) (xy 91.44 88.9)
 		)
 		(stroke
@@ -2550,7 +2560,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 132.08) (xy 180.34 132.08)
+			(xy 191.77 132.08) (xy 180.34 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2760,16 +2770,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 76.2) (xy 39.37 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2e1ed66-4eb3-4d37-ab12-3b809c702ffe")
-	)
-	(wire
-		(pts
 			(xy 223.52 77.47) (xy 223.52 73.66)
 		)
 		(stroke
@@ -2800,7 +2800,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 123.19) (xy 180.34 123.19)
+			(xy 191.77 123.19) (xy 180.34 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2860,7 +2860,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 107.95) (xy 180.34 107.95)
+			(xy 191.77 107.95) (xy 180.34 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2949,7 +2949,7 @@
 		(uuid "1126cfa4-0157-48b3-bfc2-211754554774")
 	)
 	(label "CS"
-		(at 182.88 123.19 0)
+		(at 191.77 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2959,7 +2959,7 @@
 		(uuid "1126cfa4-0157-48b3-bfc2-211754554775")
 	)
 	(label "PWM"
-		(at 182.88 115.57 0)
+		(at 191.77 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2969,7 +2969,7 @@
 		(uuid "1126cfa4-0157-48b3-bfc2-211754554776")
 	)
 	(label "ZCD"
-		(at 182.88 132.08 0)
+		(at 191.77 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2979,7 +2979,7 @@
 		(uuid "1126cfa4-0157-48b3-bfc2-211754554777")
 	)
 	(label "Out+"
-		(at 182.88 107.95 0)
+		(at 191.77 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3037,6 +3037,380 @@
 			(justify left bottom)
 		)
 		(uuid "ea23acca-a758-4b87-b429-ed2a343567c2")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 39.37 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3034e0c6-9594-4a46-915f-9e74d8e5f6f6")
+		(property "Netclass" "HV_LC"
+			(at 40.0685 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -66.04 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 182.88 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cfa9638-b483-4c4b-b369-6fed9f833dba")
+		(property "Netclass" "Signal"
+			(at 183.5785 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -17.78 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 111.76 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46fda04e-7658-44e2-a63f-4469cd88aa7d")
+		(property "Netclass" "HV_LC"
+			(at 112.4585 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -86.36 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 182.88 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d2519d3-09c0-45df-aafa-b73df9458d65")
+		(property "Netclass" "Signal"
+			(at 183.5785 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -17.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 95.25 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e8dab3f-8bf6-4616-81b0-b35bd4715660")
+		(property "Netclass" "HV_LC"
+			(at 95.9485 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -102.87 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 180.34 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5440c382-c440-4cfb-828c-f05f623f2b67")
+		(property "Netclass" "Signal"
+			(at 181.0385 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -69.85 -40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 182.88 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b69e2c2-1844-4ea8-8a9d-4b38cc529cc7")
+		(property "Netclass" "Signal"
+			(at 183.5785 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -17.78 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 198.12 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66c4617d-313f-4f87-8650-1186cf306642")
+		(property "Netclass" "HV_LC"
+			(at 198.8185 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 39.37 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95c5d46a-a885-470a-9700-01e2f4a7dfec")
+		(property "Netclass" "HV_LC"
+			(at 38.6715 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 144.78 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 144.78 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a2e53f6-4a65-4d14-9324-e23984924aa5")
+		(property "Netclass" "HV_HC"
+			(at 145.4785 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -1.27 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 109.22 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b901cc48-89e7-4d20-a9f7-1f0b1f780486")
+		(property "Netclass" "Signal"
+			(at 109.9185 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -91.44 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 175.26 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c00e39e2-35c0-47f6-8c9c-453ba668042c")
+		(property "Netclass" "HV_HC"
+			(at 175.9585 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -19.05 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Transformer:TEZ2.5-D-1")
@@ -4813,17 +5187,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 30.48 73.66 0)
-		(mirror y)
+		(at 30.48 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fe7ab0be-98a0-487f-8ba9-44dcef530b8f")
 		(property "Reference" "J1"
-			(at 30.48 64.77 0)
+			(at 30.48 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,7 +5203,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 30.48 67.31 0)
+			(at 30.48 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
