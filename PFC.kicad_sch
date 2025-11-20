@@ -1368,6 +1368,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 90.17) (xy 149.86 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61507526-ec41-4a9c-9a3d-fdf7f3378ec5")
+	)
+	(wire
+		(pts
 			(xy 110.49 128.27) (xy 100.33 128.27)
 		)
 		(stroke
@@ -1438,7 +1448,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 90.17) (xy 161.29 91.44)
+			(xy 149.86 90.17) (xy 149.86 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1508,7 +1518,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 99.06) (xy 161.29 100.33)
+			(xy 149.86 99.06) (xy 149.86 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1788,7 +1798,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 90.17) (xy 161.29 90.17)
+			(xy 162.56 90.17) (xy 160.02 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1947,7 +1957,7 @@
 		(uuid "91018fb8-eec5-435c-b2f9-0e5b6f6e9689")
 	)
 	(label "Driver"
-		(at 161.29 90.17 180)
+		(at 149.86 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2412,7 +2422,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N47xxA")
-		(at 161.29 95.25 270)
+		(at 149.86 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2420,7 +2430,7 @@
 		(dnp no)
 		(uuid "4deac152-effe-412f-a72f-a31bea9f8a08")
 		(property "Reference" "D2"
-			(at 158.75 93.9799 90)
+			(at 147.32 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +2439,7 @@
 			)
 		)
 		(property "Value" "1N47xxA"
-			(at 158.75 96.5199 90)
+			(at 147.32 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2438,7 +2448,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 156.845 95.25 0)
+			(at 145.415 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,7 +2457,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 161.29 95.25 0)
+			(at 149.86 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,7 +2466,7 @@
 			)
 		)
 		(property "Description" "1300mW Silicon planar power Zener diodes, DO-41"
-			(at 161.29 95.25 0)
+			(at 149.86 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,6 +3724,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 156.21 90.17 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df0af4f9-4aab-40ac-9a87-5bd3d5f83af6")
+		(property "Reference" "R8"
+			(at 156.21 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 156.21 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 156.21 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ee6f73d-2534-462c-899a-4cb50bc37749")
+		)
+		(pin "2"
+			(uuid "7ce2feac-358e-45ff-a61c-06abba98e0d6")
+		)
+		(instances
+			(project "ELP2-Boost_PFSC"
+				(path "/75286de1-7f8d-40aa-9455-9b7cb1219971/632fa9e6-e980-4ea8-a4d3-2ac1d8c15c2c"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 160.02 120.65 0)
 		(mirror x)
@@ -3936,7 +4015,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 100.33 0)
+		(at 149.86 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3945,7 +4024,7 @@
 		(fields_autoplaced yes)
 		(uuid "f630822b-43f8-4f49-acaa-a79ac20d956f")
 		(property "Reference" "#PWR06"
-			(at 161.29 106.68 0)
+			(at 149.86 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +4033,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 105.41 0)
+			(at 149.86 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,7 +4041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 100.33 0)
+			(at 149.86 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +4050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 100.33 0)
+			(at 149.86 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +4059,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 100.33 0)
+			(at 149.86 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
