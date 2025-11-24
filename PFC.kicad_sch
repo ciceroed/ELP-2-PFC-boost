@@ -375,170 +375,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Potentiometer_Trim"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer_Trim"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Trim-potentiometer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resistor variable trimpot trimmer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Potentiometer_Trim_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.762) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_Trim_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:1N47xxA"
 			(pin_numbers
 				(hide yes)
@@ -1061,12 +897,6 @@
 		)
 	)
 	(junction
-		(at 95.25 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00e846d1-82d9-483b-885e-9a07b2439a78")
-	)
-	(junction
 		(at 92.71 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1125,16 +955,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da4ab12f-a752-41c9-9884-8fdcfce4d6fd")
-	)
-	(wire
-		(pts
-			(xy 93.98 118.11) (xy 95.25 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01746f36-d27d-4a43-a5d7-a94c4023e781")
 	)
 	(wire
 		(pts
@@ -1248,6 +1068,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 110.49) (xy 90.17 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cdd8cf-2368-499c-9ad7-5e86ec1cefd6")
+	)
+	(wire
+		(pts
 			(xy 125.73 63.5) (xy 125.73 60.96)
 		)
 		(stroke
@@ -1255,16 +1085,6 @@
 			(type default)
 		)
 		(uuid "39b513e1-c000-4295-97c2-be673c49506f")
-	)
-	(wire
-		(pts
-			(xy 90.17 121.92) (xy 90.17 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3afb407c-a8a1-4d33-b7d6-5df934a56cfa")
 	)
 	(wire
 		(pts
@@ -1398,6 +1218,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 100.33) (xy 93.98 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6946ccbf-4a06-497b-b59f-e3141793c7a9")
+	)
+	(wire
+		(pts
 			(xy 121.92 60.96) (xy 125.73 60.96)
 		)
 		(stroke
@@ -1428,23 +1258,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 124.46) (xy 95.25 124.46)
+			(xy 90.17 124.46) (xy 100.33 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7d1edbb2-c1cf-4baf-a51e-5a1a55a91bb4")
-	)
-	(wire
-		(pts
-			(xy 95.25 124.46) (xy 100.33 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fb890f5-37c3-4319-9453-497b73eb702b")
 	)
 	(wire
 		(pts
@@ -1495,16 +1315,6 @@
 			(type default)
 		)
 		(uuid "9860d003-bce6-41b3-92c5-200dcc4cb614")
-	)
-	(wire
-		(pts
-			(xy 90.17 110.49) (xy 90.17 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9adddef6-a2d0-4381-a591-33e86c22b2bd")
 	)
 	(wire
 		(pts
@@ -1665,16 +1475,6 @@
 			(type default)
 		)
 		(uuid "c169a4df-a071-4d5e-add4-9dea623c5293")
-	)
-	(wire
-		(pts
-			(xy 95.25 118.11) (xy 95.25 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c51f8346-a69d-46cf-9b87-55fcc42e9070")
 	)
 	(wire
 		(pts
@@ -1936,16 +1736,6 @@
 		)
 		(uuid "91018fb8-eec5-435c-b2f9-0e5b6f6e9688")
 	)
-	(label "VO_SNS"
-		(at 90.17 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "91018fb8-eec5-435c-b2f9-0e5b6f6e9689")
-	)
 	(label "Driver"
 		(at 149.86 90.17 180)
 		(effects
@@ -1995,6 +1785,16 @@
 			(justify left bottom)
 		)
 		(uuid "91018fb8-eec5-435c-b2f9-0e5b6f6e968e")
+	)
+	(label "VO_SNS"
+		(at 93.98 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96c28ef7-0030-49aa-8b61-200f93f95176")
 	)
 	(hierarchical_label "ZCD"
 		(shape input)
@@ -2368,7 +2168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 166.0652 127 0)
 			(effects
 				(font
@@ -2506,7 +2306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W2.5mm_P7.50mm_MKT"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 116.84 119.6848 0)
 			(effects
 				(font
@@ -2617,79 +2417,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Trim")
-		(at 90.17 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58a5ac5a-24cf-4f0c-b88e-dbd8d53b467f")
-		(property "Reference" "RV1"
-			(at 87.63 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer_Trim"
-			(at 87.63 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ELP-Boost_PFC:Trimpot-10k"
-			(at 90.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Trim-potentiometer"
-			(at 90.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78b7d779-db3a-46a0-84bd-3f7abbc7c2c3")
-		)
-		(pin "3"
-			(uuid "4ca68873-ac02-44ef-a4a8-75030d7e3564")
-		)
-		(pin "2"
-			(uuid "c99b7dc7-00c7-47ba-9ef1-85f368df790f")
-		)
-		(instances
-			(project ""
-				(path "/75286de1-7f8d-40aa-9455-9b7cb1219971/632fa9e6-e980-4ea8-a4d3-2ac1d8c15c2c"
-					(reference "RV1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 96.52 69.85 0)
 		(unit 1)
@@ -2717,7 +2444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 97.4852 73.66 0)
 			(effects
 				(font
@@ -2778,7 +2505,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 92.71 97.0279 0)
+			(at 87.63 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +2648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 126.6952 71.12 0)
 			(effects
 				(font
@@ -3130,7 +2857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 163.5252 72.39 0)
 			(effects
 				(font
@@ -3960,7 +3687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L13.5mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 110.49 129.2352 0)
 			(effects
 				(font

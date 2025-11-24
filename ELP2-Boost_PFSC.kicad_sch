@@ -2155,6 +2155,12 @@
 		(uuid "34785019-fb70-4b89-8f6d-983f975f3a1c")
 	)
 	(junction
+		(at 143.51 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62f78283-e8ad-42ad-b237-46503bae0a9d")
+	)
+	(junction
 		(at 194.31 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2195,12 +2201,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1903b04-552e-4ec7-94a9-6ba02f5643f0")
-	)
-	(junction
-		(at 143.51 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f327baa4-2999-4d3d-935e-6c3b4cc9df42")
 	)
 	(no_connect
 		(at 41.91 85.09)
@@ -2280,23 +2280,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 68.58) (xy 175.26 68.58)
+			(xy 165.1 43.18) (xy 168.91 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19dd0104-3296-45e0-addb-84533d830f9f")
-	)
-	(wire
-		(pts
-			(xy 154.94 54.61) (xy 148.59 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e4163a2-3232-4897-8930-aa6be50c53c7")
+		(uuid "1cf0f40f-af40-4b1a-83ec-6592d0e8d268")
 	)
 	(wire
 		(pts
@@ -2310,16 +2300,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 68.58) (xy 165.1 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "247c581b-2e19-4fef-8326-2691ed3fc6c6")
-	)
-	(wire
-		(pts
 			(xy 203.2 68.58) (xy 203.2 71.12)
 		)
 		(stroke
@@ -2330,13 +2310,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 67.31) (xy 165.1 68.58)
+			(xy 165.1 68.58) (xy 175.26 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dcc7ed2-6282-45b8-bfd6-25a1cdc4c03b")
+		(uuid "2b0604da-08bd-41cd-ba74-68f8fe2a4ff8")
 	)
 	(wire
 		(pts
@@ -2470,6 +2450,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 43.18) (xy 165.1 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4969e203-975f-457c-a2a7-e50687d72801")
+	)
+	(wire
+		(pts
 			(xy 182.88 140.97) (xy 182.88 142.24)
 		)
 		(stroke
@@ -2507,16 +2497,6 @@
 			(type default)
 		)
 		(uuid "5ba0d43c-9b9e-466c-92fb-101bc30df05d")
-	)
-	(wire
-		(pts
-			(xy 154.94 67.31) (xy 154.94 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f66f5cb-f943-4c6a-93b5-c181a9a3348e")
 	)
 	(wire
 		(pts
@@ -2630,16 +2610,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 54.61) (xy 148.59 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8116ca65-c745-417a-96cf-6ef7d27bd586")
-	)
-	(wire
-		(pts
 			(xy 151.13 31.75) (xy 143.51 31.75)
 		)
 		(stroke
@@ -2690,23 +2660,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 69.85) (xy 173.99 69.85)
+			(xy 154.94 68.58) (xy 143.51 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96c326ae-fee8-477a-8262-6606df1ca0a0")
-	)
-	(wire
-		(pts
-			(xy 173.99 69.85) (xy 173.99 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9776ebdb-9bcd-47ed-b47c-24697b7598f0")
+		(uuid "994e030e-7e63-4c1c-9cba-341198a6f806")
 	)
 	(wire
 		(pts
@@ -2770,16 +2730,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 57.15) (xy 165.1 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abd5d063-5cee-4f02-8fb4-c8c431dae26f")
-	)
-	(wire
-		(pts
 			(xy 180.34 53.34) (xy 180.34 52.07)
 		)
 		(stroke
@@ -2790,13 +2740,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 43.18) (xy 168.91 43.18)
+			(xy 154.94 67.31) (xy 154.94 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1dd6b07-b7f3-480d-bf47-d28c97298932")
+		(uuid "b786bdff-b3c0-4fb3-92a3-981a9707842e")
 	)
 	(wire
 		(pts
@@ -2837,6 +2787,16 @@
 			(type default)
 		)
 		(uuid "cdc10889-5f6f-4186-95bc-f42329963020")
+	)
+	(wire
+		(pts
+			(xy 154.94 54.61) (xy 154.94 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8915654-1918-4918-9af5-608cb425d215")
 	)
 	(wire
 		(pts
@@ -2920,16 +2880,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 57.15) (xy 154.94 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec8e4770-a45e-4841-b579-dbcb41d2be2c")
-	)
-	(wire
-		(pts
 			(xy 39.37 76.2) (xy 39.37 77.47)
 		)
 		(stroke
@@ -2940,6 +2890,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 67.31) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f706a3fb-3752-4a23-9465-c1bb13f82e9f")
+	)
+	(wire
+		(pts
 			(xy 96.52 88.9) (xy 102.87 88.9)
 		)
 		(stroke
@@ -2947,6 +2907,16 @@
 			(type default)
 		)
 		(uuid "f7138497-531e-4611-a71e-65ca0fc5cfd7")
+	)
+	(wire
+		(pts
+			(xy 154.94 54.61) (xy 152.4 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f743620f-5266-4002-b2b6-d10814ea9abb")
 	)
 	(wire
 		(pts
@@ -3373,7 +3343,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 109.22 139.7 0)
+		(at 106.68 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3381,9 +3351,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b901cc48-89e7-4d20-a9f7-1f0b1f780486")
-		(property "Netclass" "Signal"
-			(at 109.9185 137.16 0)
+		(uuid "bf0ba859-8bc5-411a-a830-221d5c6d36e1")
+		(property "Netclass" "HV_LC"
+			(at 107.3785 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +3362,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -91.44 39.37 0)
+			(at -91.44 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3404,7 @@
 	)
 	(symbol
 		(lib_id "Transformer:TEZ2.5-D-1")
-		(at 160.02 62.23 90)
+		(at 160.02 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3443,25 +3413,25 @@
 		(fields_autoplaced yes)
 		(uuid "025b2a1d-1ba5-4b57-9f5e-20c34318134c")
 		(property "Reference" "TR1"
-			(at 166.37 60.9218 90)
+			(at 166.37 60.998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "TEZ2.5-D-1"
-			(at 166.37 63.4618 90)
+			(at 166.37 63.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "ELP-Boost_PFC:Indutor ELP"
-			(at 168.91 62.23 0)
+			(at 151.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +3594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 173.482 87.63 90)
 			(effects
 				(font
@@ -3831,7 +3801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 166.37 33.528 90)
 			(effects
 				(font
@@ -4552,7 +4522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 154.94 33.528 90)
 			(effects
 				(font
@@ -4803,7 +4773,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 148.59 57.15 0)
+		(at 152.4 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4812,7 +4782,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb3e68a0-6319-472d-bfe8-7aae1caf9b3f")
 		(property "Reference" "#PWR013"
-			(at 148.59 63.5 0)
+			(at 152.4 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +4791,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 148.59 62.23 0)
+			(at 152.4 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +4799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 57.15 0)
+			(at 152.4 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +4808,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 57.15 0)
+			(at 152.4 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +4817,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 148.59 57.15 0)
+			(at 152.4 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +4993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 187.96 44.958 90)
 			(effects
 				(font
@@ -5093,7 +5063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W9.0mm_P27.50mm_MKS4"
 			(at 134.3152 77.47 0)
 			(effects
 				(font
