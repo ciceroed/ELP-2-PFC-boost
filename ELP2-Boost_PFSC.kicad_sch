@@ -5133,7 +5133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D22.0mm_P10.00mm_SnapIn"
 			(at 204.1652 78.74 0)
 			(effects
 				(font
