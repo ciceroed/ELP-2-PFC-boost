@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -498,7 +498,7 @@
         "microvia_drill": 0.1,
         "name": "HV_HC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 5.0,
         "via_diameter": 2.0,
@@ -512,9 +512,19 @@
         "microvia_drill": 0.1,
         "name": "HV_LC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,
+        "via_diameter": 2.0,
+        "via_drill": 1.0
+      },
+      {
+        "clearance": 2.0,
+        "name": "MV_LC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
         "via_diameter": 2.0,
         "via_drill": 1.0
       },
@@ -526,7 +536,7 @@
         "microvia_drill": 0.1,
         "name": "Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 2.0,
@@ -576,6 +586,9 @@
       ],
       "Net-(D6-A)": [
         "HV_HC"
+      ],
+      "Net-(R1-Pad1)": [
+        "MV_LC"
       ]
     },
     "netclass_patterns": [
