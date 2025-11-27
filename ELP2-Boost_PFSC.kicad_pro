@@ -589,6 +589,9 @@
       ],
       "Net-(R1-Pad1)": [
         "MV_LC"
+      ],
+      "Net-(R12-Pad2)": [
+        "HV_LC"
       ]
     },
     "netclass_patterns": [
